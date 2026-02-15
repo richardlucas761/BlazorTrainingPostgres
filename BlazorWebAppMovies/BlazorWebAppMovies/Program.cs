@@ -1,10 +1,10 @@
-﻿using BlazorWebAppMoviesPostgres.Components;
+﻿using BlazorWebAppMovies.Components;
 using Microsoft.EntityFrameworkCore;
-using BlazorWebAppMoviesPostgres.Data;
+using BlazorWebAppMovies.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContextFactory<BlazorWebAppMoviesContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("BlazorWebAppMoviesContext") ??
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BlazorWebAppMoviesContext") ??
         throw new InvalidOperationException("Connection string 'BlazorWebAppMoviesContext' not found.")));
 
 builder.Services.AddQuickGridEntityFrameworkAdapter();

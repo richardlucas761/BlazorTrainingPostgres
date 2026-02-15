@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BlazorWebAppMovies.Models;
 
-namespace BlazorWebAppMoviesPostgres.Data;
+namespace BlazorWebAppMovies.Data;
 
 /// <summary>
 /// Create default data in the <see cref="Movie"/> model / database table.

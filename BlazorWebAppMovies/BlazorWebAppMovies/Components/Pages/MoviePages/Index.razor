@@ -1,12 +1,11 @@
 ﻿@page "/movies"
 @rendermode InteractiveServer
-@using BlazorWebAppMovies.Data
-@using BlazorWebAppMovies.Models
-@using BlazorWebAppMoviesPostgres.Data
-@using Microsoft.AspNetCore.Components.QuickGrid
 @using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using BlazorWebAppMovies.Models
+@using BlazorWebAppMovies.Data
 @implements IAsyncDisposable
-@inject IDbContextFactory<BlazorWebAppMoviesContext> DbFactory
+@inject IDbContextFactory<BlazorWebAppMovies.Data.BlazorWebAppMoviesContext> DbFactory
 
 <PageTitle>Index</PageTitle>
 

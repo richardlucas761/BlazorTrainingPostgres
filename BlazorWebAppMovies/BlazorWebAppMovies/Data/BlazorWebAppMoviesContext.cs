@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace BlazorWebAppMoviesPostgres.Data
+namespace BlazorWebAppMovies.Data
 {
     /// <summary>
     /// Database context.

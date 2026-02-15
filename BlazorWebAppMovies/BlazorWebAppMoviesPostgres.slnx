@@ -2,5 +2,5 @@
   <Folder Name="/Solution Items/">
     <File Path="../README.md" />
   </Folder>
-  <Project Path="BlazorWebAppMovies/BlazorWebAppMoviesPostgres.csproj" />
+  <Project Path="BlazorWebAppMovies/BlazorWebAppMovies.csproj" />
 </Solution>
