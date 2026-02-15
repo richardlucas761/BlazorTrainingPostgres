@@ -35,6 +35,7 @@ public static class SeedData
         context.Movie.AddRange(
             new Movie
             {
+                MovieId = 1,
                 Title = "Mad Max",
                 ReleaseDate = new DateOnly(1979, 4, 12),
                 Genre = SciFiGenre,
@@ -43,6 +44,7 @@ public static class SeedData
             },
             new Movie
             {
+                MovieId = 2,
                 Title = "The Road Warrior",
                 ReleaseDate = new DateOnly(1981, 12, 24),
                 Genre = SciFiGenre,
@@ -51,6 +53,7 @@ public static class SeedData
             },
             new Movie
             {
+                MovieId = 3,
                 Title = "Mad Max: Beyond Thunderdome",
                 ReleaseDate = new DateOnly(1985, 7, 10),
                 Genre = SciFiGenre,
@@ -59,6 +62,7 @@ public static class SeedData
             },
             new Movie
             {
+                MovieId = 4,
                 Title = "Mad Max: Fury Road",
                 ReleaseDate = new DateOnly(2015, 5, 15),
                 Genre = SciFiGenre,
@@ -67,6 +71,7 @@ public static class SeedData
             },
             new Movie
             {
+                MovieId = 5,
                 Title = "Furiosa: A Mad Max Saga",
                 ReleaseDate = new DateOnly(2024, 5, 24),
                 Genre = SciFiGenre,
@@ -75,6 +80,7 @@ public static class SeedData
             },
             new Movie
             {
+                MovieId = 6,
                 Title = "Encounter of the Spooky Kind",
                 ReleaseDate = new DateOnly(1980, 12, 24),
                 Genre = "Action",
@@ -83,6 +89,7 @@ public static class SeedData
             },
             new Movie
             {
+                MovieId = 7,
                 Title = "Blade Runner",
                 ReleaseDate = new DateOnly(1982, 9, 9),
                 Genre = SciFiGenre,
@@ -91,8 +98,9 @@ public static class SeedData
             },
             new Movie
             {
+                MovieId = 8,
                 Title = "Alien",
-                ReleaseDate = new DateOnly(1979,9,6),
+                ReleaseDate = new DateOnly(1979, 9, 6),
                 Genre = SciFiGenre,
                 Price = 13.33M,
                 Rating = "R"
